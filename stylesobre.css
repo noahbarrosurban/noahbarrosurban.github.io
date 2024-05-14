@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Trash Hand';
+    src: url(Fontes/TrashHand.TTF) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url(Fontes/SourceCodePro.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0647d8;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: 'TrashHand', monospace;
+    font-size: 50px;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10px;
+}
+
+.menu{
+    width: 100vw;
+    height: 80px;
+    background-color: #ededed;
+    display: flex; /*Mantem alinhado na responsividade*/
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-item{
+    text-decoration: none;
+}

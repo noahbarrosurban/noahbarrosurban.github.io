@@ -1,0 +1,18 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #0647d8;
+    color: white;
+    text-align: center;
+}
+main {
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+}
+img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer {
+    font-size: 10px;
+}
