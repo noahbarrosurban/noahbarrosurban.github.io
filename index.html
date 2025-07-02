@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Noah Barros Urban | Backend Engineer</title>
+    <meta name="description" content="Portfolio of Noah Barros Urban, a Backend Engineer working with Kotlin, Java, Spring, Docker and Kubernetes. See the projects and get in touch.">
+    <link rel="canonical" href="https://noahbarrosurban.github.io/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Noah Barros Urban | Backend Engineer">
+    <meta property="og:description" content="Portfolio of Noah Barros Urban, a Backend Engineer working with Kotlin, Java, Spring, Docker and Kubernetes.">
+    <meta property="og:url" content="https://noahbarrosurban.github.io/">
+    <meta property="og:image" content="https://noahbarrosurban.github.io/assets/img/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/montserrat-latin.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/TrashHand.woff2" crossorigin>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preload" as="image" href="assets/img/perfil.webp" fetchpriority="high">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon-sprite" aria-hidden="true">
+        <symbol id="icon-menu" viewBox="0 0 24 24">
+            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+        </symbol>
+        <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+            <path d="M12 4 5 11l1.41 1.41L11 7.83V20h2V7.83l4.59 4.58L19 11z"/>
+        </symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24">
+            <path d="M6.94 5a2 2 0 1 1-4-.002 2 2 0 0 1 4 .002zM7 8.48H3V21h4V8.48zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91l.04-1.68z"/>
+        </symbol>
+        <symbol id="icon-github" viewBox="0 0 24 24">
+            <path d="M12 2A10 10 0 0 0 8.84 21.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5A10 10 0 0 0 12 2z"/>
+        </symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24">
+            <path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85C2.38 3.92 3.89 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07c-4.36.2-6.78 2.62-6.98 6.98C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/>
+        </symbol>
+    </svg>
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Noah Barros Urban</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <button type="button" class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+                <svg class="icon" aria-hidden="true"><use href="#icon-menu"></use></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>NO</span><br>AH</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up"></use></svg>Scroll down</a>
+                </div>
+
+                <img src="assets/img/perfil.webp" alt="Noah Barros Urban" class="home__img" width="800" height="1001" fetchpriority="high" decoding="async">
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.webp"
+                         srcset="assets/img/about-320.webp 320w, assets/img/about.webp 600w"
+                         sizes="(min-width: 768px) 260px, 160px"
+                         alt="Noah Barros Urban" width="600" height="600" loading="lazy" decoding="async">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Noah Barros Urban</h2>
+                    <span class="about__profession">Backend Engineer</span>
+                    <p class="about__text">I'm a Backend Engineer with a background in Systems Development and a Bachelor's degree in Software Engineering.</p>
+                    <p class="about__text">Feel free to connect with me on LinkedIn or GitHub.</p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/noahbarrosurban/" class="about__social-icon" target="_blank" rel="noopener" aria-label="Noah Barros Urban on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg></a>
+                        <a href="https://github.com/noahbarrosurban" class="about__social-icon" target="_blank" rel="noopener" aria-label="Noah Barros Urban on GitHub"><svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+                    <img src="assets/img/gobots.webp" alt="GoBots" width="800" height="450" loading="lazy" decoding="async">
+
+                    <div class="portfolio__link">
+                        <a href="https://gobots.ai/gobots-chat/" class="portfolio__link-name" target="_blank" rel="noopener">GoBots</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/redspark.webp" alt="redspark" width="800" height="450" loading="lazy" decoding="async">
+
+                    <div class="portfolio__link">
+                        <a href="https://redspark.io/quem-somos/" class="portfolio__link-name" target="_blank" rel="noopener">redspark</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/grupopositivo.webp" alt="Grupo Positivo" width="800" height="450" loading="lazy" decoding="async">
+
+                    <div class="portfolio__link">
+                        <a href="https://aprendebrasil.com.br/aprende-brasil-digital/" class="portfolio__link-name" target="_blank" rel="noopener">Grupo Positivo</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/joane.webp" alt="Joane Hatsbach de Paula" width="800" height="450" loading="lazy" decoding="async">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/joanenathachehatsbachdepaula/joanenathachehatsbachdepaula.github.io.git" class="portfolio__link-name" target="_blank" rel="noopener">Joane Hatsbach de Paula</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/noah.webp" alt="This Project" width="800" height="450" loading="lazy" decoding="async">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/noahbarrosurban/noahbarrosurban.github.io.git" class="portfolio__link-name" target="_blank" rel="noopener">This Project</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <img src="assets/img/renault.webp" alt="Renault Project" width="800" height="450" loading="lazy" decoding="async">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/noahbarrosurban/Renault-Project.git" class="portfolio__link-name" target="_blank" rel="noopener">Renault Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Kotlin</span>
+                    <span class="skills__name">Java</span>
+                    <span class="skills__name">Spring</span>
+                    <span class="skills__name">Docker</span>
+                    <span class="skills__name">PostgreSQL</span>
+                    <span class="skills__name">MongoDB</span>
+                    <span class="skills__name">GCP Pub/Sub</span>
+                    <span class="skills__name">Kubernetes</span>
+                    <span class="skills__name">API REST</span>
+                    <span class="skills__name">Microservices</span>
+                    <span class="skills__name">Object-oriented Programming</span>
+                    <span class="skills__name">Asynchronous Programming</span>
+
+                    <h3 class="skills__subtitle">Software Engineer</h3>
+                    <span class="skills__name">Scrum</span>
+                    <span class="skills__name">Communication</span>
+                    <span class="skills__name">Teamwork</span>
+                </div>
+
+                <div class="skills__img"></div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text"><a href="mailto:noahbarrosurban@gmail.com">noahbarrosurban@gmail.com</a></span>
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+55 41 99845-2833</span>
+
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Campo Largo - PR, Brazil</span>
+                </div>
+
+                <form class="contact__form" id="contact-form">
+                    <div class="contact__inputs">
+                        <label class="sr-only" for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="name" placeholder="Name" class="contact__input" required>
+
+                        <label class="sr-only" for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="email" placeholder="Email" class="contact__input" required>
+                    </div>
+
+                    <label class="sr-only" for="contact-message">Message</label>
+                    <textarea id="contact-message" name="message" placeholder="Message" rows="10" class="contact__input" required></textarea>
+
+                    <input type="submit" value="Send" class="contact__button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">NOAH BARROS URBAN</h2>
+                <p class="footer__text">I'm Noah and this is my personal landing page.</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                    <li><a href="#skills" class="footer__link">Skills</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">FOLLOW</h2>
+                <a href="https://www.instagram.com/noahbarrosurban/" class="footer__social" target="_blank" rel="noopener" aria-label="Noah Barros Urban on Instagram"><svg class="icon" aria-hidden="true"><use href="#icon-instagram"></use></svg></a>
+                <a href="https://www.linkedin.com/in/noahbarrosurban/" class="footer__social" target="_blank" rel="noopener" aria-label="Noah Barros Urban on LinkedIn"><svg class="icon" aria-hidden="true"><use href="#icon-linkedin"></use></svg></a>
+                <a href="https://github.com/noahbarrosurban" class="footer__social" target="_blank" rel="noopener" aria-label="Noah Barros Urban on GitHub"><svg class="icon" aria-hidden="true"><use href="#icon-github"></use></svg></a>
+            </div>
+        </div>
+    </footer>
+
+    <script defer src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script defer src="assets/js/main.js"></script>
+</body>
+</html>
