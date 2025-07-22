@@ -10,7 +10,7 @@ Este repositório contém o projeto da minha landing page. A aplicação foi con
 
 ## Acesso Rápido
 
-> 🌐 A aplicação está hospedada em: [https://noahbarrosurban.github.io/](https://noahbarrosurban.github.io/)
+> 🌐 A aplicação está hospedada no GitHub Pages: [https://noahbarrosurban.github.io/](https://noahbarrosurban.github.io/)
 
 ## Onde obter ajuda?
 
