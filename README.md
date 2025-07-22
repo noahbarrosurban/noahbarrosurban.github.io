@@ -6,36 +6,16 @@
 
 **Olá, Dev!**
 
-Este site é hospedado gratuitamente no GitHub Pages. Nele, você encontrará informações sobre meus projetos, habilidades e experiências profissionais. 
-O site é construído utilizando HTML, CSS e JavaScript, e foi desenvolvido para servir como um portfólio online.
+Este repositório contém o projeto da minha landing page. A aplicação foi construída utilizando HTML, CSS e JavaScript, e foi desenvolvida para servir como um portfólio online.
 
-## Pré-Requisitos
+## Acesso Rápido
 
-Para contribuir ou personalizar o projeto, você precisará dos seguintes itens:
-
-- [Visual Studio Code](https://code.visualstudio.com/)
-    - Como instalar?
-        - Instalação manual: [baixar](https://code.visualstudio.com/Download)
-- [Git](https://git-scm.com/)
-    - Como instalar?
-        - Instalação manual: [baixar](https://git-scm.com/downloads)
-
-## Configuração do Ambiente de Desenvolvimento
-
-### Clonando o Repositório
-
-Clone o repositório para sua máquina local:
-
-```bash
-git clone https://github.com/noahbarrosurban/noahbarrosurban.github.io.git
-```
-
-Com o projeto devidamente armazenado localmente, é possivel abrir o diretório usando o Visual Studio Code acessando `File -> Open Folder`.
-
-### Visualizando o Projeto Localmente
-
-Para visualizar o site localmente, você pode instalar a extensão do Live Server no Visual Studio Code. Em seguida, clique com o botão direito sobre o arquivo "index.html" e `Open with Live Server`.
+> 🌐 A aplicação está hospedada em: [https://seulink.com](https://seulink.com)
 
 ## Onde obter ajuda?
 
-Para sanar quaisquer dúvidas, procure o Engenheiro de Software responsável pelo projeto (no caso, eu)!
+Para sanar quaisquer dúvidas, procure o Engenheiro de Software responsável pelo projeto!
+
+## Créditos
+
+Este projeto foi inspirado em uma [aplicação web de código aberto](https://github.com/bedimcode/responsive-portfolio-website-JhonDoe), que serviu como base para parte da implementação.
